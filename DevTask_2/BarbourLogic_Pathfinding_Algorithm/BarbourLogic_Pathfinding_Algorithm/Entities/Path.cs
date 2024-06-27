@@ -1,11 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using BarbourLogic_Pathfinding_Algorithm.Abstraction.Entities;
 
 namespace BarbourLogic_Pathfinding_Algorithm.Abstraction.Entities
 {
     public class Path
     {
-        public List<Tuple<int, int>> Cells { get; }
+        public List<Node> Nodes { get; }
+
+        public Path()
+        {
+            Nodes = new List<Node>();
+        }
+
+        public void AddNode(Node node)
+        {
+            Nodes.Add(node);
+        }
     }
 }
