@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbourLogic_Pathfinding_Algorithm.Abstraction", "BarbourLogic_Pathfinding_Algorithm\BarbourLogic_Pathfinding_Algorithm.Abstraction.csproj", "{F9EA6FFF-30E0-4C21-B291-3D03C32F01B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbourLogic_Pathfinding_Algorithm.Test", "BarbourLogic_Pathfinding_Algorithm.Test\BarbourLogic_Pathfinding_Algorithm.Test.csproj", "{FB73B60E-58E6-4CA1-B6B5-B4AF72827F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbourLogic_Pathfinding.StarAlgo", "BarbourLogic_Pathfinding.StarAlgo\BarbourLogic_Pathfinding.StarAlgo.csproj", "{BB59DC18-3877-428B-81FA-9D79A6D68601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9EA6FFF-30E0-4C21-B291-3D03C32F01B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EA6FFF-30E0-4C21-B291-3D03C32F01B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EA6FFF-30E0-4C21-B291-3D03C32F01B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EA6FFF-30E0-4C21-B291-3D03C32F01B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB73B60E-58E6-4CA1-B6B5-B4AF72827F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB73B60E-58E6-4CA1-B6B5-B4AF72827F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB73B60E-58E6-4CA1-B6B5-B4AF72827F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB73B60E-58E6-4CA1-B6B5-B4AF72827F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB59DC18-3877-428B-81FA-9D79A6D68601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB59DC18-3877-428B-81FA-9D79A6D68601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB59DC18-3877-428B-81FA-9D79A6D68601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB59DC18-3877-428B-81FA-9D79A6D68601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93A80276-7C45-4E66-B9B4-B6B9F8F55A34}
+	EndGlobalSection
+EndGlobal
