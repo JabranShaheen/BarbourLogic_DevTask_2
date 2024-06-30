@@ -5,4 +5,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BarbourLogic_Pathfinding_Algorithm\BarbourLogic_Pathfinding_Algorithm.Abstraction.csproj" />
+  </ItemGroup>
+
 </Project>

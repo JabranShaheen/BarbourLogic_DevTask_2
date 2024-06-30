@@ -16,4 +16,9 @@
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BarbourLogic_Pathfinding.StarAlgo\BarbourLogic_Pathfinding.StarAlgo.csproj" />
+    <ProjectReference Include="..\BarbourLogic_Pathfinding_Algorithm\BarbourLogic_Pathfinding_Algorithm.Abstraction.csproj" />
+  </ItemGroup>
+
 </Project>

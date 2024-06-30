@@ -8,5 +8,4 @@ namespace BarbourLogic_Pathfinding_Algorithm.Abstraction.Services
     {
         List<Path> FindShortestPath(Grid grid, Tuple<int, int> start, Tuple<int, int> end);
     }
-
 }
